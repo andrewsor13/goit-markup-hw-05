@@ -312,6 +312,8 @@ h2 {
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms linear, transform 1s linear;
+  z-index: 100;
 }
 
 .is-hidden {
@@ -425,15 +427,12 @@ h2 {
   gap: 30px;
 }
 
-.studio-image-item {
-  position: relative;
-}
 
 .studio-image-item p {
   color: #FFFFFF;
   box-sizing: border-box;
-  position: absolute;
-  bottom: 3px;
+  position: relative;
+  bottom: 75px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
